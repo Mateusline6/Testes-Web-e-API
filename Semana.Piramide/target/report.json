@@ -1,0 +1,77 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-31T00:16:52.411Z",
+        "line": 9,
+        "name": "Enviar formulario",
+        "description": "",
+        "id": "validar-formulario;enviar-formulario",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3544654300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que eu esteja no formulario",
+            "match": {
+              "location": "Steps.Steps.que_eu_esteja_no_formulario()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3180349600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "eu preecher e enviar o formulario",
+            "match": {
+              "location": "Steps.Steps.eu_preecher_e_enviar_o_formulario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 19986800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sou direcionado para o site da escola",
+            "match": {
+              "location": "Steps.Steps.sou_direcionado_para_o_site_da_escola()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Executa"
+          },
+          {
+            "name": "@Executa1"
+          }
+        ]
+      }
+    ],
+    "name": "Validar formulario",
+    "description": "  Eu como aluno quero enviar o formulario para enviar uma mensagem",
+    "id": "validar-formulario",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/Feature/Form.feature",
+    "tags": [
+      {
+        "name": "@Executa",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
